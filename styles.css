@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 14px;
+	background: #ecf0f1;
+	width: 340px;
+	border: 3px solid #888;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+.contactForm {
+	position: relative;
+	height: 120px;
+}
+
+input {
+	position: relative;
+	top: 20px;
+	left: 100px;
+	height: 20px;
+	margin: 0;
+	width: 200px;
+	display: block;
+	background: inherit;
+	border-color: #bdc3c7;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+button {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	background: #22a6b3;
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 2px 2px 5px #282828;
+	border: 2px solid;
+	transition: .3s;
+}
+
+button:hover {
+	cursor: pointer;
+  	box-shadow: 0 0.5em 0.5em -0.4em #282828;
+ 	transform: translateY(-0.3em);
+}
+
+.contactItem {
+	min-height: 100px;
+}
+
+.contactImage {
+	margin: 10px;
+	width: 80px;
+	float: left;
+}
+
+.contactLabel, .contactEmail {
+	color: #333;
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	min-width: 200px;
+}
